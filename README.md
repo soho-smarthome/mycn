@@ -7,11 +7,13 @@ cloud native
 curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.15.3/bin/linux/amd64/kubectl \
   && chmod +x kubectl
 
+mv kubectl /usr/local/bin/
 
 #下载minikube
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
   && chmod +x minikube
-
+  
+mv kubectl /usr/local/bin/
 
 #注意用aliyun的镜像，否则很慢
 minikube start --image-repository=registry.cn-hangzhou.aliyuncs.com/google_containers --driver=none --kubernetes-version v1.15.3
