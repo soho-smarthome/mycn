@@ -1,6 +1,8 @@
 # mycn
 cloud native
-#
+#测试环境
+Ubuntu 16.04.4 LTS xenial
+4.4.0-116-generic x86_64 GNU/Linux
 
 #安装kubectl
 #由于openYurt目前支持kube1.14.1，1.15.1，很快就会支持1.16.1，所以这里下载1.15.3
